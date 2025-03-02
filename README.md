@@ -43,14 +43,8 @@ This project is a basic recreation of id Software's groundbreaking 1993 game DOO
 - WASD: Movement
 - Mouse: Look around
 - Left Mouse Button: Shoot
-- 1-4: Select weapons
+- 1-3: Select weapons
 - E: Interact
-- Space: Open doors
-- Shift: Run
-
-## Screenshots
-
-[Screenshot placeholders]
 
 ## Development Status
 
