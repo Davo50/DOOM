@@ -852,7 +852,7 @@ def draw_pause_menu():
     screen.blit(resume_text, (WIDTH // 2 - resume_text.get_width() // 2, HEIGHT // 2))
     screen.blit(exit_text, (WIDTH // 2 - exit_text.get_width() // 2, HEIGHT // 2 + 40))
 
-# Main game loop
+# Исправленная главная функция
 def main_game():
     global player_x, player_y, player_angle, player_health, current_weapon, player_speed
     running = True
@@ -893,6 +893,7 @@ def main_game():
             pygame.display.flip()
             clock.tick(60)
             continue
+        
         # Get keyboard state
         keys = pygame.key.get_pressed()
         
@@ -1005,7 +1006,7 @@ def start_menu():
         clock.tick(60)
     
     return False
-
+    
 # Set mouse to center and hide cursor
 pygame.mouse.set_pos(WIDTH // 2, HEIGHT // 2)
 pygame.mouse.set_visible(False)
